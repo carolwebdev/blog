@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --loglevel=warn",
+    "prepare": "yarn bootstrap",
+    "start": "./ci/run-scoped-lerna.sh",
+    "add:dep": "./ci/run-add-lerna.sh",
+    "add:dev:dep": "./ci/run-add-dev-lerna.sh"
+  },
+  "fronthub-dependencies": [
+    "@resultadosdigitais/tangram-components",
+    "@resultadosdigitais/tangram-design-tokens",
+    "@resultadosdigitais/tangram-react-icons",
+    "@resultadosdigitais/front-hub",
+    "@resultadosdigitais/front-hub-commons",
+    "@resultadosdigitais/browserslist-config",
+    "@resultadosdigitais/eslint-config-react",
+    "@resultadosdigitais/prettier-config",
+    "@resultadosdigitais/translator-manager"
+  ],
+  "dependencies": {
+    "lerna": "5.1.6"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "blog-core",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@resultadosdigitais/browserslist-config": "1.4.0",
+    "@resultadosdigitais/eslint-config": "2.0.0",
+    "@resultadosdigitais/prettier-config": "2.0.0",
+    "prettier": "2.2.1"
+  },
+  "prettier": "@resultadosdigitais/prettier-config",
+  "eslintConfig": {
+    "root": true,
+    "extends": "@resultadosdigitais/eslint-config"
+  },
+  "browserslist": [
+    "extends @resultadosdigitais/browserslist-config/platform"
+  ]
+}

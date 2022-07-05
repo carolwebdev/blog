@@ -1,0 +1,10 @@
+{
+    "CrowdinProjectID": "My_Project_Id",
+    "CrowdinProjectKey": "My_API_Key",
+    "ModifiedGrepPattern": "config/locales/.*pt-BR.yml",
+    "IgnorePaternOnExtract": "config/locales/manual",
+    "GitIgnorePattern": "en-UD.yml",
+    "FileExtension": "yml",
+    "FileType": "yaml",
+    "GitMainBranch": "master"
+}
