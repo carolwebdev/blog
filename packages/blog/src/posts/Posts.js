@@ -1,3 +1,5 @@
+import Post from 'post/Post'
+
 const Posts = () => {
   const blogPosts = [
     {
@@ -140,19 +142,15 @@ const Posts = () => {
 
       Pensando em perguntas como essas, o Sitegeist2022 — uma brincadeira com “zeitgeist”, expressão alemã que pode ser traduzida como “sentimento de época”, ou “sinal dos tempos” — propõe uma brincadeira curiosa. Ele permite que você envie um e-mail para si mesmo ou para outra pessoa, que só será recebido após uma década.
 
-
       Ficou em dúvida sobre o que escrever? Aí vão algumas sugestões de mensagens: em 2032 teremos os Jogos Olímpicos na Austrália. Uma boa pode ser perguntar sobre o cenário esportivo atual, por exemplo. Quais são as revelações em cada modalidade? O Brasil está mais bem colocado no quadro de medalhas?
 
       Como anda o cenário político? O mundo está pensando mais na questão ambiental (provavelmente não)? Que tipo de música domina o streaming — ou qualquer outra tecnologia que existir na época?
 
       Se pensa em ter um filho até lá, escreva para ele sobre suas expectativas em relação a ele. Vale falar com o seu “futuro eu” sobre como está a sua vida atual, por exemplo.
 
-
       Você provavelmente esquecerá desse e-mail quando ele finalmente chegar, o que deixa tudo mais legal. Afinal, quando você do futuro receber a mensagem, provavelmente terá uma sensação de nostalgia.
 
       O site é bem fácil de navegar, não existe segredo. É só colocar o nome, e-mail e escrever a suas mensagem.
-
-
 
       Apesar de interessante, a iniciativa não é inédita. Lançado em 2002, o site chamado Future Me fez sucesso e protagonizou o envio de mais de 10 milhões de mensagens. A proposta era a mesma.
 
@@ -201,13 +199,14 @@ const Posts = () => {
 
       Fica evidente, portanto, que na RD Station, embora não existam regras determinando a realização de pair, as pessoas desenvolvedoras tendem a utilizar essa técnica porque as vantagens se sobrepõem às desvantagens, e todo mundo sai ganhando.`,
       imgUrl: `https://miro.medium.com/max/1400/1*RmwWDs4CrzyEeWKJRY7K0Q.png`,
+      author: `Ana Carolina de Araujo, Cristhyane Araldi, Giovanna Alyssa, Isadora Caprini, Lia Farias, Renata Matsumoto, Sarah Nani, Stefanny Ferreira e Thais Santiago`,
     },
   ]
 
   return (
-    <div className="posts-container">
+    <div>
       {blogPosts.map((post, index) => (
-        <Posts key={index} index={index} post={post} />
+        <Post key={index} index={index} post={post} />
       ))}
     </div>
   )
