@@ -198,8 +198,8 @@ const Posts = () => {
       A cultura de pair programming é muito bem recebida e elogiada pelos RDoers:
 
       Fica evidente, portanto, que na RD Station, embora não existam regras determinando a realização de pair, as pessoas desenvolvedoras tendem a utilizar essa técnica porque as vantagens se sobrepõem às desvantagens, e todo mundo sai ganhando.`,
-      imgUrl: `https://miro.medium.com/max/1400/1*RmwWDs4CrzyEeWKJRY7K0Q.png`,
       author: `Ana Carolina de Araujo, Cristhyane Araldi, Giovanna Alyssa, Isadora Caprini, Lia Farias, Renata Matsumoto, Sarah Nani, Stefanny Ferreira e Thais Santiago`,
+      imgUrl: `https://miro.medium.com/max/1400/1*RmwWDs4CrzyEeWKJRY7K0Q.png`,
     },
   ]
 

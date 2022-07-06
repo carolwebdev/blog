@@ -29,6 +29,9 @@ const CssPost = styled.div`
   .info {
     margin-top: -45px;
     margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
   }
 `
 
