@@ -1,4 +1,5 @@
 import Post from 'post/Post'
+import PostList from 'postList/PostList'
 
 const Posts = () => {
   const blogPosts = [
@@ -206,7 +207,7 @@ const Posts = () => {
   return (
     <div>
       {blogPosts.map((post, index) => (
-        <Post key={index} index={index} post={post} />
+        <PostList {...post} />
       ))}
     </div>
   )

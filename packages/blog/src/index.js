@@ -6,6 +6,10 @@ import { frontHubIntl as intlFormatting } from '@resultadosdigitais/front-hub-in
 import Posts from 'posts/Posts'
 import Banner from 'banner/Banner'
 import Aside from 'aside/Aside'
+import PostList from 'postList/PostList'
+import Post from 'post/Post'
+import { Modal } from '@resultadosdigitais/tangram-components'
+import ExampleBase from 'modal/Modal'
 
 const Fundo = styled.body`
   background-color: #455b66;
@@ -13,7 +17,7 @@ const Fundo = styled.body`
   height: 100%;
 `
 
-const Formatar = styled.section`
+const Layout = styled.section`
   display: flex;
 `
 
@@ -21,10 +25,10 @@ export default Connect(
   () => (
     <Fundo>
       <Banner />
-      <Formatar>
+      <Layout>
         <Posts />
         <Aside />
-      </Formatar>
+      </Layout>
     </Fundo>
   ),
   {
